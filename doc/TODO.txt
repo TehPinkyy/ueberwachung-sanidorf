@@ -1,0 +1,12 @@
+TODOs
+
+Lutz:
+
+* Setup fuer Datenlogging via logger
+* hochohmiger Spannungs-teiler/halbierer
+
+
+Joerg:
+* Modellfindung, Informationsfindung und Einleitung Beschaffung vom Schieberegler
+* Einpflegen von bereits existierendem Code ins Git Repo
+
