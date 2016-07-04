@@ -1,14 +1,12 @@
 TODOs
 
-Lutz:
-
-* Setup fuer Datenlogging via logger
-* hochohmiger Spannungs-teiler/halbierer
-* Ultraschall-Backup
-* Schwimmschalter-Backup
-
-
-Joerg:
-* Modellfindung, Informationsfindung und Einleitung Beschaffung vom Schieberegler
-* Einpflegen von bereits existierendem Code ins Git Repo
-
+*Schieberegler aussuchen, beschaffung organisieren [[Joerg]]
+*Informationen zum Ansteuerungsprotokoll fuer Schieberegler beschaffen [[Joerg]]
+*Einpflegen von bereits existierendem Code ins Git Repo
+*Regler fuer Schieberegler
+*Datenuebertragung + Schnittstelle zwischen Arduino und Raspi
+*Datenlogging [[Lutz]]
+*Auslesen Pegelstand -> Spannungsteiler [[Lutz]]
+*Backups fuer Pegelstand-auslesung vorbereiten [[Lutz]]
+**Schwimmschalter
+**Ultraschall Pegelmessung
