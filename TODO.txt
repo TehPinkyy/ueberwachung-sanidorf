@@ -4,6 +4,8 @@ Lutz:
 
 * Setup fuer Datenlogging via logger
 * hochohmiger Spannungs-teiler/halbierer
+* Ultraschall-Backup
+* Schwimmschalter-Backup
 
 
 Joerg:
