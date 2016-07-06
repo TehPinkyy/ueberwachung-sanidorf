@@ -1,5 +1,5 @@
-#ifndef Defines_h
-#define Defines_h
+#ifndef _DEFINES_H_
+#define _DEFINES_H_
 
 
 // Ultrasonic
@@ -12,6 +12,11 @@
 
 // Pumpe Pegel
 #define PUMPE_PIN_PEGEL			17
+
+// Circular Buffer
+#define CIRCULAR_BUFFER_FILTER_TOP_LIMIT 	500
+#define CIRCULAR_BUFFER_SIZE				32
+#define CIRCULAR_BUFFER_SHIFTAMOUNT 		5 		// 2^5 = 32
 
 
 // Basic Defines
@@ -27,4 +32,4 @@
 
 
 #endif 
-//Defines_h
+// _DEFINES_H_
