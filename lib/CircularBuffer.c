@@ -1,6 +1,16 @@
+//Arduino Legacy
+#if defined (ARDUINO) && ARDUINO >= 100
+	#include <Arduino.h>
+#else
+	#include <WProgram.h>
+	#include <pins_arduino.h>
+#endif
+
 #include "CircularBuffer.h"
 #include "Defines.h"
 #include <inttypes.h>
+
+
 
 void CircularBufferInit( Buffer *buffer, uint8_t size)
 {
