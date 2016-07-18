@@ -1,0 +1,66 @@
+#ifndef _DEFINES_H_
+#define _DEFINES_H_
+
+// Location
+#define LOCATION SanidorfOST
+
+// Select Active Components
+#define SCHACHT_ULTRASONIC_ON	TRUE
+#define SCHACHT_SCHWIMMER_ON	FALSE
+#define SCHACHT_PUMPE_ON		FALSE
+#define SACK_ULTRASONIC_ON		FALSE
+#define COMMUNICATION_SERIAL_ON	TRUE
+#define COMMUNICATION_GSM_ON	FALSE
+
+
+// Schacht - Ultraschall
+#define SCHACHT_ULTRASONIC_PIN_TRIGGER	2	// D2
+#define SCHACHT_ULTRASONIC_PIN_ECHO		4	// D4
+#define SCHACHT_ULTRASONIC_MAX_DISTANCE	500
+
+// Schacht - Schwimmschalter
+#define SCHACHT_SCHWIMMER_PIN			14	// A0
+
+// Schacht - Pumpe Pegel
+#define SCHACHT_PUMPE_PEGEL_PIN			17	//A3
+
+// (Abwasser)Sack - Ultraschall
+#define SACK_ULTRASONIC_PIN_TRIGGER 	6		// D6
+#define SACK_ULTRASONIC_PIN_ECHO 		8		// D8
+#define SACK_ULTRASONIC_MAX_DISTANCE 	500
+
+
+// Circular Buffer
+#define CIRCULAR_BUFFER_FILTER_TOP_LIMIT 	500
+#define CIRCULAR_BUFFER_SIZE				32
+#define CIRCULAR_BUFFER_SHIFTAMOUNT 		5 		// 2^5 = 32
+
+
+// Basic Defines
+#ifndef TRUE
+#define TRUE  1
+#endif
+ 
+#ifndef FALSE
+#define FALSE 0
+#endif
+
+#define SERIAL_BAUD_RATE 9600
+
+
+// Warnings
+#define SCHACHT_ULTRASONIC_WARNING_LEVEL 	200
+#define SCHACHT_PUMPE_WARNING_LEVEL			100
+#define SACK_ULTRASONIC_WARNING_LEVEL
+
+// Alerts
+#define SCHACHT_ULTRASONIC_ALERT_LEVEL
+#define SCHACHT_PUMPE_ALERT_LEVEL
+#define SACK_ULTRASONIC_ALERT_LEVEL
+
+
+
+
+
+#endif 
+// _DEFINES_H_
